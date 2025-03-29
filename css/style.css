@@ -2049,3 +2049,9 @@ body .theme-button-one:hover {background:#000f32; }
   padding: 0 20px;
   border:1px solid #f0f0f0;
 }
+/* Đảm bảo hình ảnh có thể tự động điều chỉnh kích thước */
+.responsive-img {
+  width: 100%; /* Chiều rộng 100% của phần tử chứa */
+  height: auto; /* Chiều cao tự động theo tỉ lệ */
+  max-width: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước phần tử chứa */
+}
