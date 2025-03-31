@@ -1,6 +1,8 @@
 
 /* CSS Document */
 
+/* CSS Document */
+
 /* 
     Created on   : 23/05/2018.
     Theme Name   : Charles-Business-Consulting HTML Template.
@@ -279,7 +281,7 @@ body .theme-button-one:hover {background:#000f32; }
 .header-one .top-header .address-wrapper .address {
   position: relative;
   padding: 0 38px 0 60px;
-  margin-right: 0px;
+  margin-right: 15px;
 }
 .header-one .top-header .address-wrapper .address .icon {
   position: absolute;
@@ -2121,19 +2123,23 @@ body .theme-button-one:hover {background:#000f32; }
 .logo img {
   max-width: 100%; /* Giữ tỷ lệ logo không bị méo */
   height: auto; /* Giữ nguyên tỷ lệ chiều cao */
-  width: 400px; /* Kích thước mặc định trên máy tính */
+    width: 700px; /* Kích thước mặc định trên máy tính */
 }
 
 /* Điều chỉnh kích thước logo trên điện thoại */
+@media (max-width: 768px) {
 @media (max-width: 1050px) {
   .logo img {
-      width: 450px; /* Thu nhỏ logo trên màn hình nhỏ hơn */
+      width: 150px; /* Thu nhỏ logo trên màn hình nhỏ hơn */
+      width: 350px; /* Thu nhỏ logo trên màn hình nhỏ hơn */
   }
 }
 
+@media (max-width: 480px) {
 @media (max-width: 720px) {
   .logo img {
-      width: 400px; /* Thu nhỏ hơn nữa trên màn hình rất nhỏ */
+      width: 120px; /* Thu nhỏ hơn nữa trên màn hình rất nhỏ */
+      width: 240px; /* Thu nhỏ hơn nữa trên màn hình rất nhỏ */
   }
 }
 
@@ -2143,7 +2149,7 @@ body .theme-button-one:hover {background:#000f32; }
   justify-content: space-between; /* Căn đều khoảng cách giữa các mục */
   align-items: center;
   flex-wrap: wrap; /* Cho phép xuống dòng khi màn hình nhỏ */
-  gap: 5px; /* Khoảng cách giữa các mục */
+  gap: 15px; /* Khoảng cách giữa các mục */
 }
 
 .address {
@@ -2159,8 +2165,8 @@ body .theme-button-one:hover {background:#000f32; }
 }
 
 .address i {
-  font-size: 10px;
-  margin-right: 5px;
+  font-size: 20px;
+  margin-right: 10px;
 }
 
 /* Điều chỉnh trên điện thoại */
