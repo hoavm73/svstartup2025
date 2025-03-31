@@ -278,8 +278,8 @@ body .theme-button-one:hover {background:#000f32; }
 .header-one .top-header .address-wrapper .quotes a:hover {color: #fff;}
 .header-one .top-header .address-wrapper .address {
   position: relative;
-  padding: 0 38px 0 60px;
-  margin-right: 15px;
+  padding: 0 38px 0 200px;
+  margin-right: 0px;
 }
 .header-one .top-header .address-wrapper .address .icon {
   position: absolute;
