@@ -2121,19 +2121,19 @@ body .theme-button-one:hover {background:#000f32; }
 .logo img {
   max-width: 100%; /* Giữ tỷ lệ logo không bị méo */
   height: auto; /* Giữ nguyên tỷ lệ chiều cao */
-  width: 200px; /* Kích thước mặc định trên máy tính */
+  width: 300px; /* Kích thước mặc định trên máy tính */
 }
 
 /* Điều chỉnh kích thước logo trên điện thoại */
-@media (max-width: 768px) {
+@media (max-width: 1050px) {
   .logo img {
-      width: 150px; /* Thu nhỏ logo trên màn hình nhỏ hơn */
+      width: 350px; /* Thu nhỏ logo trên màn hình nhỏ hơn */
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
   .logo img {
-      width: 120px; /* Thu nhỏ hơn nữa trên màn hình rất nhỏ */
+      width: 240px; /* Thu nhỏ hơn nữa trên màn hình rất nhỏ */
   }
 }
 
