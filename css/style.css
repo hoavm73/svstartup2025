@@ -2067,13 +2067,13 @@ body .theme-button-one:hover {background:#000f32; }
 /* Điều chỉnh kích thước logo trên điện thoại */
 @media (max-width: 768px) {
   .logo img {
-      width: 150px; /* Thu nhỏ logo trên màn hình nhỏ hơn */
+      width: 200px; /* Thu nhỏ logo trên màn hình nhỏ hơn */
   }
 }
 
 @media (max-width: 480px) {
   .logo img {
-      width: 120px; /* Thu nhỏ hơn nữa trên màn hình rất nhỏ */
+      width: 180px; /* Thu nhỏ hơn nữa trên màn hình rất nhỏ */
   }
 }
 
@@ -2128,18 +2128,18 @@ body .theme-button-one:hover {background:#000f32; }
 
 /* Điều chỉnh kích thước logo trên điện thoại */
 @media (max-width: 768px) {
-@media (max-width: 1050px) {
+@media (max-width: 1080px) {
   .logo img {
-      width: 150px; /* Thu nhỏ logo trên màn hình nhỏ hơn */
-      width: 350px; /* Thu nhỏ logo trên màn hình nhỏ hơn */
+      width: 180px; /* Thu nhỏ logo trên màn hình nhỏ hơn */
+      width: 250px; /* Thu nhỏ logo trên màn hình nhỏ hơn */
   }
 }
 
 @media (max-width: 480px) {
 @media (max-width: 720px) {
   .logo img {
-      width: 120px; /* Thu nhỏ hơn nữa trên màn hình rất nhỏ */
-      width: 240px; /* Thu nhỏ hơn nữa trên màn hình rất nhỏ */
+      width: 180px; /* Thu nhỏ hơn nữa trên màn hình rất nhỏ */
+      width: 250px; /* Thu nhỏ hơn nữa trên màn hình rất nhỏ */
   }
 }
 
